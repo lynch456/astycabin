@@ -1,7 +1,7 @@
-@import url("/css/header.css");
-@import url("/css/main.css");
-@import url("/css/contents.css");
-@import url("/css/media.css");
+@import "header.css";
+@import "main.css";
+@import "contents.css";
+@import "media.css";
 
 * {
   padding: 0;
