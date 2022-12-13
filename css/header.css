@@ -22,7 +22,7 @@
 #menu > a:after {
   content: "";
   display: inline-block;
-  background-image: url("../image/menu_plus.png");
+  background-image: url("/image/menu_plus.png");
   background-repeat: no-repeat;
   background-size: 15px;
   width: 15px;

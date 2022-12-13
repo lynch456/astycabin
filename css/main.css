@@ -2,7 +2,7 @@
   width: 100%;
   height: 100vh;
   position: relative;
-  background-image: url("../image/main_visual.jpg");
+  background-image: url("/image/main_visual.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -97,7 +97,7 @@ i {
 .thum-wrap span:after {
   content: "";
   display: inline-block;
-  background-image: url("../image/btn_play_wh.svg");
+  background-image: url("/image/btn_play_wh.svg");
   width: 30px;
   height: 30px;
   vertical-align: middle;
