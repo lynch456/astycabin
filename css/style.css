@@ -1,0 +1,23 @@
+@import url("/css/header.css");
+@import url("/css/main.css");
+@import url("/css/contents.css");
+@import url("/css/media.css");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
