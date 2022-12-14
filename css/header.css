@@ -2,31 +2,30 @@
   text-align: right;
   position: fixed;
   top: 0;
-  right: 0;
+  right: 20px;
   z-index: 100;
   display: flex;
   flex-direction: column;
-  margin: 30px 50px 0 0;
+  margin: 30px 10px 0 0;
 }
 #gnb a {
   font-weight: 600;
   margin-bottom: 3px;
+  font-size: 12px;
 }
 #menu {
   position: relative;
-  font-size: 18px;
+  font-size: 12px;
 }
-#menu > a {
-  font-size: 20px;
-}
+
 #menu > a:after {
   content: "";
   display: inline-block;
   background-image: url("../image/menu_plus.png");
   background-repeat: no-repeat;
-  background-size: 15px;
-  width: 15px;
-  height: 15px;
+  background-size: 12px;
+  width: 12px;
+  height: 12px;
   margin-left: 10px;
 }
 
@@ -34,8 +33,7 @@
 #menu ~ a {
   background: #fff;
   display: block;
-  /* margin: 10px 0; */
-  padding: 10px 20px;
+  padding: 5px 10px;
 }
 
 #sub-menu {
@@ -44,7 +42,7 @@
   background: #fff;
 }
 #sub-menu li a {
-  font-size: 16px;
+  font-size: 12px;
   display: block;
   padding: 3px 10px;
   font-weight: 300;
