@@ -300,9 +300,11 @@
   }
 
   #position #section-text dl {
+    all: unset;
   }
   #position #section-text dl dd {
-    padding: 0 10px;
+    padding: 10px 0 0 0;
+
     line-height: 25px;
     flex: 1 1 25%;
     display: flex;
@@ -310,8 +312,8 @@
   }
   #position #section-text dl dd p {
     font-size: 15px;
-    padding: 0;
-    margin-bottom: 30px;
+    padding: 0px 0px;
+    margin-bottom: 20px;
   }
   #map {
     width: 100%;
