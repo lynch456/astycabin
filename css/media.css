@@ -411,12 +411,12 @@
   #unit-type dl {
     display: flex;
     flex-direction: column;
-    padding: 20vh 10vw 0 10%;
+    padding: 10vh 10vw 0 10%;
   }
   #unit-type dl dd {
     width: 320px;
     line-height: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 14px;
   }
   #unit-type_bottom_tit {
