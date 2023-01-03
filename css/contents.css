@@ -343,6 +343,7 @@
 }
 .right dl {
   display: flex;
+  margin-top: 240px;
 }
 .right dl dd {
   padding: 0 10px;
